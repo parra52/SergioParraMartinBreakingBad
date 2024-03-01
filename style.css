@@ -1,0 +1,147 @@
+@font-face {
+    font-family:"Breaking Bad";         /*Introducimos tipografia para todo el/los documento*/
+    src: url("/font/BreakingBad.ttf");
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#logo {
+    width: 200px;   /*anchura*/
+    height: 200px;  /*altura*/
+}
+
+.index1 {           
+    background-image: url(img/fondo.jpg);       /*Fondo principal y formulario*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#indextabla {
+    background-color: #0c3e11;
+}
+
+#post {                         /*Poster y sus caracteristicas anchura altura borde*/
+    width: 700px;
+    height: 300px;
+
+    border-width: 10px;
+    border-style: outset;
+    border-color: brown;
+    border-radius: 22px;
+}
+
+#titulo {
+    color: white;
+    font-family: Breaking Bad;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+
+
+#tabla1 {
+    background-color: #2b2c24;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+#tabla2 {
+    background-color: #000000;
+    font-size: 14px;
+
+
+}
+
+p {
+    font-size: 10px;
+    vertical-align: bottom;
+}
+
+
+tr,td {
+    Border: 3px solid #2b2c24;
+    border-style: solid;
+    width: 80px;
+    height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+.c1 {
+    background-color: #b8db1dea;
+}
+
+.c2 {
+    background-color: #c4e24be8;
+}
+
+.c3 {
+    background-color: #ffffff;
+}
+
+.c4 {
+    background-color: #95ac3c;
+}
+
+.c5 {
+    background-color: #6d7c2b;
+}
+
+.c6 {
+    background-color: #c9ccbc;
+}
+
+.c7 {
+    background-color: #788152;
+}
+
+.c8 {
+    background-color: #dbeb95;
+}
+
+#marie {
+    background-color: #ad8fcf;
+}
+
+.t2 {
+    background-color: #dae024;
+    text-align: center;
+}
+
+#i1 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.i2 {
+    height: 40px;
+    border-color: #000000;
+}
+
+
+
+
+
+.form {
+    position: relative;
+    left: 10%;
+    font-size: 14px;
+    margin: auto;
+    display: block;
+}
+
+#fieldset {
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    border-radius: 15px;
+
+}
